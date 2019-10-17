@@ -8,17 +8,13 @@ public class Tree_543 {
         TreeNode right = new TreeNode(7);
         root.left = left;
         root.right = right;
+        Solution_543 s = new Solution_543();
 
-        System.out.println(root.diameterOfBinaryTree(root));
+        System.out.println(s.diameterOfBinaryTree(root));
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-
+class Solution_543{
     int ans;
 
     public int diameterOfBinaryTree(TreeNode root) {
