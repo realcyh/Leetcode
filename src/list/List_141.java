@@ -13,7 +13,7 @@ public class List_141 {
         return false;
     }
 
-    //
+    // try so solve it using hash table!!!
 
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
